@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/GuilhermeAG015/API_Node_Graphql/issues"
   },
-  "homepage": "https://github.com/GuilhermeAG015/API_Node_Graphql#readme"
+  "homepage": "https://github.com/GuilhermeAG015/API_Node_Graphql#readme",
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "nodemon": "^2.0.12"
+  }
 }
