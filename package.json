@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/GuilhermeAG015/API_Node_Graphql#readme",
   "dependencies": {
+    "apollo-server": "^3.3.0",
+    "graphql": "^15.6.0",
     "json-server": "^0.16.3",
     "nodemon": "^2.0.12"
   }
