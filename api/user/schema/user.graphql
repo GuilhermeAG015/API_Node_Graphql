@@ -9,13 +9,19 @@ const userSchema = gql `
   }
 
     type Role {
-        id: ID
-        type: String
+        id: ID!
+        type: String!
   }
 
     type Query {
         users: [User]
         user(id: ID!): User! 
+    }
+
+    type Mutation {
+        addUser(nome: String!, ativo: Boolean!, email: String, role: String!) : User!
+        refreshUser(id: ID!, nome: String!, ativo: Boolean!, email: String, role: String!) : User!
+        deleteUser(id: ID!): ID!
     }
 `
 
