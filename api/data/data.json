@@ -55,6 +55,29 @@
       "email": "user2@test.com",
       "role": 1,
       "id": 8
+    },
+    {
+      "nome": "User Test 3",
+      "ativo": true,
+      "email": "user3@test.com",
+      "role": 1,
+      "id": 9
+    },
+    {
+      "nome": "User Test 3",
+      "ativo": true,
+      "email": "user4@test.com",
+      "role": 1,
+      "createAt": "2021-09-23T00:00:00.000Z",
+      "id": 10
+    },
+    {
+      "nome": "user test input",
+      "ativo": true,
+      "email": "user_test@input.com",
+      "role": 3,
+      "createAt": "2021-09-09T00:00:00.000Z",
+      "id": 11
     }
   ],
   "roles": [
